@@ -58,7 +58,7 @@ You'll need a Vonage virtual number for your customer to call. You can purchase 
 nexmo number:buy -c GB --confirm
 ```
 
-Just replace `GB` with your own [country code](https://www.iban.com/country-codes).
+Replace `GB` with your own [country code](https://www.iban.com/country-codes).
 
 
 ## Create an Application
@@ -210,7 +210,7 @@ app.get('/webhooks/answer', (req, res) => {
 
 ### The event webhook
 
-Vonage's APIs make an HTTP request to the event webhook endpoint that we specified when we created the Vonage Application every time an event relating to the call occurs. Here, we are just outputting that information to the console so we can see what's going on:
+Vonage's APIs make an HTTP request to the event webhook endpoint that we specified when we created the Vonage Application every time an event relating to the call occurs. Here, we are outputting that information to the console so we can see what's going on:
 
 ```javascript
 app.post('/webhooks/event', (req, res) => {

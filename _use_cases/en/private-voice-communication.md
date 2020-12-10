@@ -97,7 +97,7 @@ app.listen(app.get('port'), function() {
 });
 ```
 
-Note that the code instantiates an object of the `VoiceProxy` class to handle the routing of messages sent to your virtual number to the intended recipient's real number. The proxying process is described in [proxy the call](#proxy-the-call), but for now just be aware that this class initializes the Vonage Server SDK using the API key and secret that you configure in the next step. This enables your application to make and receive voice calls:
+Note that the code instantiates an object of the `VoiceProxy` class to handle the routing of messages sent to your virtual number to the intended recipient's real number. The proxying process is described in [proxy the call](#proxy-the-call), but for now be aware that this class initializes the Vonage Server SDK using the API key and secret that you configure in the next step. This enables your application to make and receive voice calls:
 
 ``` javascript
 const VoiceProxy = function(config) {
