@@ -55,7 +55,7 @@ To build the application, you perform the following steps:
 
 ## Configuration
 
-You need to create a `.env` file containing configuration. Instructions on how to do that are explained in the [GitHub Readme](https://github.com/Nexmo/node-voice-proxy#configuration). As you work through this use case you can populate your configuration file with the required values for variables such as API key, API secret, Application ID, debug mode, and provisioned numbers.
+You need to create a `.env` file containing configuration. Instructions on how to do that are explained in the [GitHub README](https://github.com/Nexmo/node-voice-proxy#configuration). As you work through this use case you can populate your configuration file with the required values for variables such as API key, API secret, Application ID, debug mode, and provisioned numbers.
 
 ## Create a Voice API application
 
