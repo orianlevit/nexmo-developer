@@ -210,7 +210,7 @@ For channels that support inbound messages (Messenger, WhatsApp and SMS) you can
 
 If a user sends in an inbound message such as "Hi", the app will respond with a help message. In our case this is "Send us a message with MSFT or GOOGL in it for real-time data". This sign up will then be acknowledged by another message confirming which feed you have subscribed to.
 
-After this you will then receive a real-time price on your selected stock symbol. If you want to additionally sign up on another channel you are free to do so. Also, if you want to change your stock symbol send in a message with the new symbol, it will be acknowledged, and the data stream will change accordingly.
+After this you will then receive a real-time price on your selected stock symbol. If you want to additionally sign up on another channel you are free to do so. Also, if you want to change your stock symbol, send in a message with the new symbol: it will be acknowledged, and the data stream will change accordingly.
 
 The core code to implement this is located in the function `proc_inbound_msg` in `app_funcs.py`.
 
