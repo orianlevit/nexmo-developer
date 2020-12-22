@@ -228,7 +228,7 @@ Where `APP_ID` is the Vonage Application ID of your Messages application.
 
 ### SMS
 
-To test with SMS send in an SMS as you did before. You will receive a help message. Send a message back with the stock symbol of either `MSFT` or `GOOGL`. You will then periodically receive a (simulated) price update. You currently have to exit the app to stop receiving these, but it would be possible to add in the ability to switch these messages off, as was done in [this tutorial](/tutorials/fbm-product-info).
+To test with SMS send in an SMS as you did before. You will receive a help message. Send a message back with the stock symbol of either `MSFT` or `GOOGL`. You will then periodically receive a (simulated) price update. You currently have to exit the app to stop receiving these, but you could add the ability to switch these messages off, as demonstrated in [this tutorial](/tutorials/fbm-product-info).
 
 ### Facebook Messenger
 
