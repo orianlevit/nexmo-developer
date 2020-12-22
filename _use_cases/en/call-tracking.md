@@ -10,7 +10,7 @@ languages:
 
 Gain insight into the effectiveness of your customer communications by keeping track of the calls received by your Vonage numbers. By registering a different number for each of your marketing campaigns, you can see which one performs the best and use that information to improve your future marketing efforts.
 
-Today's example uses node.js and all the code is [available on GitHub](https://github.com/Nexmo/node-call-tracker), however the same approach could be used for any other technology stack as effectively.
+Today's example uses node.js and all the code is [available on GitHub](https://github.com/Nexmo/node-call-tracker), however the same approach could be used for any other technology stack.
 
 ## Prerequisites
 
