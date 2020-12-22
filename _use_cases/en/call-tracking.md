@@ -27,7 +27,7 @@ In order to work through this tutorial you need:
 
 Before you grab the code and dive in, you will to set up a Vonage application and get some numbers to use with it. When you create a Vonage application, you specify some [webhook](https://developer.nexmo.com/concepts/guides/webhooks) endpoints; these are URLs in your own application and are the reason that your code must be publicly accessible. When a caller calls your Vonage number, Vonage will make a web request to the `answer_url` endpoint you specify and follow the instructions it finds there.
 
-There is also an `event_url` webhook, that receives updates whenever the call state changes. In this application the code outputs the events to the console to make them available to see while developing an application.
+There is also an `event_url` webhook, that receives updates whenever the call state changes. In this application the code outputs the events to the console to provide useful information during development.
 
 To create the initial application, use the Nexmo CLI to run the command below, replacing your URL in two places:
 
