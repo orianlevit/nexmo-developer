@@ -41,4 +41,4 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-> **NOTE** To simplify tutorial permissions are requested each time application runs.
+Run `Build` > `Make project` to make sure project is compiling.

@@ -42,4 +42,4 @@ protected void onCreate(@Nullable Bundle savedInstanceState) {
 }
 ```
 
-> **NOTE** To simplify tutorial permissions are requested each time application runs.
+Run `Build` > `Make project` to make sure project is compiling.
