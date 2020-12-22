@@ -258,7 +258,7 @@ In this example we log what happened, but in your own applications you could sto
 ⚓ Conclusion
 ## Your Broadcast Call Application
 
-You now have a working, voice-alert system where you can broadcast out a text-to-speech or prerecorded message, log which calls are answered versus sent to voicemail, and receive confirmation of receipt from users who receive the message.
+You now have a working voice-alert system where you can broadcast a text-to-speech or prerecorded message, log which calls are answered versus sent to voicemail, and receive confirmation of receipt from users who receive the message.
 
 ⚓ References
 ## Next Steps and Further Reading
