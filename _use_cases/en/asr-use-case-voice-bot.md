@@ -211,7 +211,7 @@ In the previous code block, `access_key` is your Weatherstack API key and `query
 }
 ```
 
-In the app, you will use the parameters like `description` (“Sunny”) and `temperature`. It’d be nice to get weather forecast rather than the actual temperature, however since the free Weatherstack account allows to get only `current` conditions - that’s what you will use.
+In the app, you will use parameters like `description` (“Sunny”) and `temperature`. It’d be nice to get weather forecast rather than the actual temperature, however since the free Weatherstack account allows to get only `current` conditions - that’s what you will use.
 
 Once you received the response from Weatherstack, you will return a new NCCO with the talk action to say “Today in New York: it’s sunny, 9 degrees Celsius”.
 
